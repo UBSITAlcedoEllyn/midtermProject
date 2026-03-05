@@ -1,1 +1,34 @@
-<p>navi works!</p>
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/home">Home
+            <span class="visually-hidden"></span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data-Bindings</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" routerLink="/interpolation">Interpolation</a>
+            <a class="dropdown-item" routerLink="/property-binding">Property</a>
+            <a class="dropdown-item" routerLink="/event-binding">Event</a>
+            <a class="dropdown-item" routerLink="/two-way-binding">Two-Way</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" routerLink="/products">Products</a>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
