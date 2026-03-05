@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-event-binding',
   imports: [FormsModule],
-  templateUrl: './event-binding.html',
-  styleUrl: './event-binding.css',
+  templateUrl: './event.html',
+  styleUrl: './event.css',
 })
 export class EventBinding {
   // ─────────────────────────────────────────────────────────────

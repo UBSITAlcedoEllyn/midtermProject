@@ -7,8 +7,8 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-two-way-binding',
   imports: [FormsModule, CommonModule],
-  templateUrl: './two-way-binding.html',
-  styleUrl: './two-way-binding.css',
+  templateUrl: './two-way.html',
+  styleUrl: './two-way.css',
 })
 export class TwoWayBinding {
   // SECTION D: Two-Way Binding Properties

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-property-binding',
+  selector: 'app-property',
   imports: [],
-  templateUrl: './property-binding.html',
-  styleUrl: './property-binding.css',
+  templateUrl: './property.html',
+  styleUrl: './property.css',
 })
 export class PropertyBinding {
   // SECTION B: Property Binding Properties
