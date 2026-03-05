@@ -1,1 +1,42 @@
-<p>products works!</p>
+<h2>Pastry Products</h2>
+
+<table class="product-table">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+
+  <tr *ngFor="let product of products">
+    <td>{{product.id}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.status}}</td>
+    <td>
+      <button (click)="viewProduct(product)">View</button>
+    </td>
+  </tr>
+</table>
+
+<div class="modal" *ngIf="showModal">
+
+  <div class="modal-content">
+
+    <h3>Product Details</h3>
+
+    <p><b>ID:</b> {{selectedProduct?.id}}</p>
+    <p><b>Name:</b> {{selectedProduct?.name}}</p>
+    <p><b>Category:</b> {{selectedProduct?.category}}</p>
+    <p><b>Price:</b> {{selectedProduct?.price}}</p>
+    <p><b>Stock:</b> {{selectedProduct?.stock}}</p>
+    <p><b>Status:</b> {{selectedProduct?.status}}</p>
+    <p><b>Description:</b> {{selectedProduct?.description}}</p>
+    <p><b>Brand:</b> {{selectedProduct?.brand}}</p>
+    <p><b>Rating:</b> {{selectedProduct?.rating}}</p>
+    <p><b>Date Added:</b> {{selectedProduct?.dateAdded}}</p>
+
+    <button (click)="closeModal()">Close</button>
+
+  </div>
+
+</div>
