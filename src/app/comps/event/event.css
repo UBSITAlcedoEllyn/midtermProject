@@ -1,0 +1,85 @@
+:host {
+  display: block;
+  background-color: #fff5f8;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, .modal-title {
+  color: #d81b60 !important;
+  font-weight: 800 !important;
+}
+
+.card {
+  border: 2px solid #ffb7c5 !important;
+  border-radius: 20px !important;
+  background-color: #ffffff !important;
+  color: #5d4037 !important;
+}
+
+.card-header {
+  background-color: #ff80ab !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #ffb7c5 !important;
+}
+
+.form-control, .form-select, .form-range {
+  border: 2px solid #ffdae0 !important;
+  border-radius: 12px !important;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #f06292 !important;
+  box-shadow: 0 0 0 0.25rem rgba(240, 98, 146, 0.25) !important;
+}
+
+.btn-primary { background-color: #f06292 !important; border: none !important; }
+.btn-success { background-color: #8bc34a !important; border: none !important; }
+.btn-info { background-color: #4fc3f7 !important; border: none !important; color: white !important; }
+.btn-warning { background-color: #ffb74d !important; border: none !important; color: white !important; }
+
+.btn:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.table-dark {
+  --bs-table-bg: #ad1457 !important;
+  --bs-table-striped-bg: #880e4f !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+  border: none !important;
+}
+
+.modal-header {
+  background-color: #ff80ab !important;
+  color: white !important;
+}
+
+.mouse-tracker, .dblclick-area, .rightclick-area {
+  background: #fff0f3 !important;
+  border: 2px dotted #f06292 !important;
+  border-radius: 15px !important;
+  padding: 15px !important;
+  color: #ad1457 !important;
+  text-align: center !important;
+  margin: 10px 0 !important;
+}
+
+.event-log {
+  background: #efebe9 !important;
+  padding: 15px !important;
+  border-radius: 15px !important;
+  border-left: 5px solid #ff80ab !important;
+}
+
+.color-swatch {
+  border-radius: 12px !important;
+  padding: 15px !important;
+  margin-top: 10px !important;
+}

@@ -1,0 +1,111 @@
+:host {
+  display: block;
+  background-color: #fff5f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5d4037;
+}
+
+.container.mt-4 {
+  background-color: #fff5f8;
+  padding: 30px;
+  border-radius: 25px;
+  border: 4px dashed #ffb7c5;
+}
+
+h3 {
+  color: #d81b60 !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid #ffdae0;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.card.bg-danger {
+  background-color: #ffffff !important;
+  border: 2px solid #ffb7c5 !important;
+  border-radius: 20px !important;
+  color: #5d4037 !important;
+  box-shadow: 0 8px 15px rgba(216, 27, 96, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #ff80ab !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #ffb7c5 !important;
+}
+
+.form-control, .form-select, .form-range {
+  border: 2px solid #ffdae0 !important;
+  border-radius: 12px !important;
+  margin-bottom: 10px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #f06292 !important;
+  box-shadow: 0 0 0 0.25rem rgba(240, 98, 146, 0.25) !important;
+}
+
+.btn-primary {
+  background-color: #f06292 !important;
+  border: none !important;
+  border-radius: 12px !important;
+  font-weight: bold !important;
+  padding: 10px 20px !important;
+}
+
+.btn-info {
+  background-color: #4fc3f7 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+.color-swatch {
+  border-radius: 12px !important;
+  padding: 15px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+
+.profile-summary {
+  background: #efebe9;
+  padding: 15px;
+  border-radius: 15px;
+  border-left: 5px solid #ff80ab;
+  margin-top: 20px;
+}
+
+.table-dark {
+  --bs-table-bg: #ad1457 !important;
+  --bs-table-striped-bg: #880e4f !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+  margin-top: 30px !important;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+  border: none !important;
+}
+
+.modal-header {
+  background-color: #ff80ab !important;
+  color: white !important;
+}
+
+.form-check-input:checked {
+  background-color: #f06292 !important;
+  border-color: #f06292 !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background: #d81b60 !important;
+}
+
+legend {
+  color: #ad1457;
+  font-weight: bold;
+}

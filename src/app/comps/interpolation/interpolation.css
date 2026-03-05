@@ -1,0 +1,98 @@
+:host {
+  display: block;
+  background-color: #fff5f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5d4037;
+}
+
+.container.mt-3 {
+  background-color: #fff5f8;
+  padding: 30px;
+  border-radius: 25px;
+  border: 4px dashed #ffb7c5;
+}
+
+h3, h2 {
+  color: #d81b60 !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid #ffdae0;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.lead {
+  color: #8d6e63;
+  font-style: italic;
+}
+
+code {
+  background-color: #fce4ec;
+  color: #ad1457;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+ol > li {
+  font-weight: bold;
+  color: #d81b60;
+  margin-top: 15px;
+}
+
+ul > li {
+  font-weight: normal;
+  color: #5d4037;
+  margin-bottom: 5px;
+}
+
+.card.bg-info {
+  background-color: #ffffff !important;
+  border: 2px solid #ffb7c5 !important;
+  border-radius: 20px !important;
+  color: #5d4037 !important;
+  box-shadow: 0 8px 15px rgba(216, 27, 96, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #ff80ab !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #ffb7c5 !important;
+  padding: 15px 20px !important;
+}
+
+.card-title {
+  color: #ad1457 !important;
+  font-weight: 700;
+}
+
+strong {
+  color: #d81b60;
+}
+
+.form-select {
+  border: 2px solid #ffdae0 !important;
+  border-radius: 12px !important;
+  color: #ad1457 !important;
+}
+
+.form-select:focus {
+  border-color: #f06292 !important;
+  box-shadow: 0 0 0 0.25rem rgba(240, 98, 146, 0.25) !important;
+}
+
+pre {
+  background-color: #efebe9 !important;
+  border-left: 5px solid #ff80ab !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  color: #795548 !important;
+  font-size: 0.9rem;
+}
+
+hr {
+  border-top: 2px solid #ffdae0;
+  opacity: 1;
+}

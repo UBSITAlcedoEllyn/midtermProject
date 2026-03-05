@@ -1,0 +1,106 @@
+.navbar {
+  background-color: #d81b60 !important;
+  border-bottom: 5px solid #ff80ab;
+  padding: 10px 20px !important;
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+}
+
+.container-fluid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto !important;
+  flex-grow: 1 !important;
+  align-items: center !important;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+  margin-right: auto !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-nav, .dropdown-menu {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav-item {
+  list-style: none !important;
+}
+
+.navbar-brand {
+  font-weight: 900 !important;
+  color: #ffffff !important;
+  text-shadow: 2px 2px #ad1457;
+  margin-right: 30px !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  padding: 8px 15px !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: #ffdae0 !important;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  background-color: #ffffff !important;
+  border: 3px solid #ffb7c5 !important;
+  border-radius: 15px !important;
+  box-shadow: 0 6px 12px rgba(216, 27, 96, 0.2);
+  min-width: 160px;
+}
+
+.dropdown-item {
+  display: block !important;
+  width: 100% !important;
+  padding: 8px 20px !important;
+  color: #ad1457 !important;
+  text-decoration: none !important;
+  border: none !important;
+  background: none !important;
+}
+
+.dropdown-item:hover {
+  background-color: #fff0f3 !important;
+  color: #d81b60 !important;
+}
+
+.d-flex {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 10px;
+}
+
+.form-control {
+  border: 2px solid #ffb7c5 !important;
+  border-radius: 20px !important;
+  width: auto !important;
+  max-width: 200px;
+}
+
+.btn-secondary {
+  background-color: #8bc34a !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 6px 15px !important;
+  color: white !important;
+  white-space: nowrap !important;
+}
