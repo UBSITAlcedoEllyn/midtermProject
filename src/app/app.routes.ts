@@ -5,6 +5,7 @@ import { PropertyBinding } from './comps/property/property';
 import { EventBinding } from './comps/event/event';
 import { Home } from './comps/home/home';
 import { TwoWayBinding } from './comps/two-way/two-way';
+import { ProductsComponent } from './comps/products/products';
 
 export const routes: Routes = [
 
@@ -33,6 +34,9 @@ export const routes: Routes = [
         component: TwoWayBinding
     },
 
-   
+    {
+        path: 'products',
+        component: ProductsComponent
+    }
 ];
 
