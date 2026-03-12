@@ -9,4 +9,6 @@ export interface Product {
   brand: string;
   rating: number;
   dateAdded: string;
+  releaseDate?: string;
+  
 }

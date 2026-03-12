@@ -6,6 +6,10 @@ import { EventBinding } from './comps/event/event';
 import { Home } from './comps/home/home';
 import { TwoWayBinding } from './comps/two-way/two-way';
 import { ProductsComponent } from './comps/products/products';
+import { ProdListsComponent } from './comps/product-list/product-list';
+import { ProductDetails } from './comps/product-details/product-details';
+import { EditProductComponent} from './comps/edit-product/edit-product';
+import { ViewDetailsComponent } from './comps/view-details/view-details';
 
 export const routes: Routes = [
 
@@ -37,6 +41,26 @@ export const routes: Routes = [
     {
         path: 'products',
         component: ProductsComponent
+    },
+
+    {
+        path: 'product-list',
+        component: ProdListsComponent
+    },
+
+    {
+        path: 'product-details/:id',
+        component: ProductDetails
+    },
+
+    {
+        path: 'edit-product/:id',
+        component: EditProductComponent
+    },
+
+    {
+        path: 'view-details/:id',
+        component: ViewDetailsComponent
     }
 
 ];

@@ -148,4 +148,5 @@ export class ProductsComponent {
     this.showModal = false;
     this.selectedProduct = null;
   }
+
 }
